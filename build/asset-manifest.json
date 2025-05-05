@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.988c601c.css",
+    "main.js": "/static/js/main.b3f32ff1.js",
+    "static/js/453.d94b3f87.chunk.js": "/static/js/453.d94b3f87.chunk.js",
+    "static/media/744617821385.png": "/static/media/744617821385.6856c09276925d43def5.png",
+    "static/media/png": "/static/media/6809137e0cdf0a000d871538.d6337d0eb5eeea5efc8c.png",
+    "static/media/1742921851737.jpg": "/static/media/1742921851737.26f2c0ab579a027be4d9.jpg",
+    "static/media/22637.jpg": "/static/media/22637.2270bf701a0e7f29dfc5.jpg",
+    "static/media/jsimage.jpg": "/static/media/jsimage.2e8c4cc4eaf781f4d3e6.jpg",
+    "static/media/1742921851024.jpg": "/static/media/1742921851024.34de7155670c26858e25.jpg",
+    "static/media/1742921851874.jpg": "/static/media/1742921851874.bd04f84eae9be2465e2f.jpg",
+    "static/media/1742921543637.jpg": "/static/media/1742921543637.08ac8ee4cf98587aaf52.jpg",
+    "static/media/35247489.jpg": "/static/media/35247489.b231264652a011870e3f.jpg",
+    "static/media/background.jpg": "/static/media/background.26a782af12583d34b307.jpg",
+    "static/media/postgresql-svgrepo-com.svg": "/static/media/postgresql-svgrepo-com.80698a9357694806fe474e2d1b94b7e5.svg",
+    "static/media/next-dot-js-svgrepo-com.svg": "/static/media/next-dot-js-svgrepo-com.b0cd4ec7d66b9048682c2d58d2a4008b.svg",
+    "static/media/angular-icon-svgrepo-com.svg": "/static/media/angular-icon-svgrepo-com.8c6154f29fe1331c8bc65ba9596aaf63.svg",
+    "index.html": "/index.html",
+    "main.988c601c.css.map": "/static/css/main.988c601c.css.map",
+    "main.b3f32ff1.js.map": "/static/js/main.b3f32ff1.js.map",
+    "453.d94b3f87.chunk.js.map": "/static/js/453.d94b3f87.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.988c601c.css",
+    "static/js/main.b3f32ff1.js"
+  ]
+}

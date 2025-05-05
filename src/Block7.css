@@ -1,0 +1,77 @@
+.block7 {
+  position: relative;
+  width: 100%;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.block7.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.block7 .aspect{
+  position: relative;
+}
+.stroke-gray-100 {
+  position: absolute;
+  stroke: #f4f4f5;
+  mask-image: radial-gradient(transparent, #fff);
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.block7_main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 1248px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 8rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.block7_main h3 {
+  font-size: 1rem;
+  color: #71717a;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .1em;
+}
+.block7_main p {
+  line-height: 2rem;
+  color: #52525b;
+  font-size: 1.25rem;
+  letter-spacing: -.025em;
+  max-width: 48rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.block7 .best_prog{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.block7 .has-tooltip svg{
+  width: 50px;
+  height: 50px;
+}
+.block7 .has-tooltip100 svg{
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 640px) {  
+  .block7_main{
+    padding: 0;
+  }
+}

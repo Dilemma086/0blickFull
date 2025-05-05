@@ -1,0 +1,83 @@
+.block{
+  position: relative;
+  max-width: 1248px;
+  margin: 100px auto;
+  z-index: 1;
+  overflow: hidden;
+}
+.block h2{
+  font-size: 1rem;
+  color: #52525b;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: .1em;
+}
+.gradientblock{
+  justify-content: center;
+  display: flex;
+  mask-image: radial-gradient(circle, #fff 80%, transparent 100%);
+}
+.keys,
+.keys2{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin-top: 50px;
+  gap: 35px;
+}
+.keys2{
+  display: none;
+}
+@media (max-width: 960px) { 
+
+  .gradientblock{
+    justify-content: start;
+  }
+  .keys2{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    justify-content: start;
+    animation: marquee-end 30s linear infinite;
+  }
+ 
+  @keyframes marquee-end {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0%); /* Adjust this value based on your needs */
+    }
+  }
+
+  .keys{
+    grid-template-columns: repeat(6, auto);
+    justify-content: start;
+    animation: marquee-start 30s linear infinite;
+  }
+
+
+  @keyframes marquee-start {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%); /* Adjust this value based on your needs */
+    }
+  }
+}
+.keys .frame,
+.keys2 .frame{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #52525b;
+}
+.keys .frame p,
+.keys2 .frame p{
+  font-size: 1.8em;
+  color: #52525b;
+  line-height: 1.1em;
+}
+.keys .frame svg,
+.keys2 .frame svg{
+  height: max(4vw, 3em);
+}

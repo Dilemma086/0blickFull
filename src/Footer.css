@@ -1,0 +1,32 @@
+.footer{
+  position: relative;
+  width: 100%;
+  background-color: #fafafa;
+  color: #3f3f46;
+}
+
+.footer_main {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  max-width: 1248px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 6rem 0;
+  padding:  3rem 1.5rem;
+  
+}
+.footer_main a{
+  color: #3f3f46;
+}
+.footer_icon{
+  display: flex;
+  gap: 1rem;
+}
+.footer_icon svg{
+  font-size: 1.3rem;
+}
+@media (max-width: 1024px) { 
+ 
+ 
+}

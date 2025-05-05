@@ -1,0 +1,160 @@
+.block8 {
+  position: relative;
+  width: 100%;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.block8.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.block8 .aspect{
+  position: relative;
+}
+.stroke-gray-100 {
+  position: absolute;
+  stroke: #f4f4f5;
+  mask-image: radial-gradient(transparent, #fff);
+}
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
+.block8_main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 1248px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 8rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.block8_main h3 {
+  font-size: 1rem;
+  color: #71717a;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .1em;
+}
+.block8_main p {
+  line-height: 2rem;
+  color: #52525b;
+  font-size: 1.25rem;
+  letter-spacing: -.025em;
+  max-width: 48rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.block8_main .from-primary-600{
+  display: inline-block;
+  background-image: linear-gradient(to top, #65a30d, #fff  );
+  width: 1px;
+  height: 6rem;
+  align-self: center;
+}
+.block8_main .purple-500{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  background-image: linear-gradient(to right, #65a30d, #a3e635);
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  align-self: center;
+}
+.block8_main h4{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #65a30d,#a3e635 );
+  color: transparent;
+  background-clip: text;
+  padding-top: 1em;
+}
+.block8_main h5{
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 700;
+  text-align: center;
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to bottom, #000, #3f3f46, #000);
+  padding-top: .7em;
+  padding-bottom: 1.5rem;
+}
+.block8 .monitoring{
+  display: flex;
+  align-items: center;
+}
+.block8 .descript h4{
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  text-align: left;
+  color: #000;
+}
+.block8 .descript p{
+  color: rgb(82 82 91);
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-align: left;
+}
+.block8 .descript svg{
+  width: 2rem;
+  height: 2rem;
+  fill: #65a30d;
+  color: #65a30d;
+}
+.block8 .actionsfera{
+  width: 100%;
+  
+}
+.block8 .actionsfera img{
+  width: 100%;
+  
+}
+
+@media (max-width: 1024px) { 
+  .block8 .monitoring{
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .block8 .monitoring h4,
+  .block8 .monitoring p,
+  .block8 .descript{
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 640px) { 
+  .block8_main{
+    padding-top: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .block8_main h5 {
+    font-size: 2rem;
+    
+  }
+  .block8_main p{
+    
+    width: 100%;
+  }
+  .block8 .descript h4{
+    font-size: 1.5rem;
+  }
+  
+}
